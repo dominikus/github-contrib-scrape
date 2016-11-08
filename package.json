@@ -1,0 +1,25 @@
+{
+  "name": "github-contrib-scrape",
+  "version": "0.0.1",
+  "description": "Scrapes a user's contribution history from github, stores it as csv",
+  "keywords": [
+    "scraping",
+    "github",
+    "contributions",
+    "tool"
+  ],
+  "repository": "https://github.com/dominikus/github-contrib-scrape.git",
+  "homepage": "",
+  "author": "Dominikus Baur <do@minik.us>",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.78.0"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.4.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
